@@ -14,7 +14,7 @@ interface Card {
 
 const cards: Card[] = [
   {
-    title: 'Pacientes com\nDentes Perdidos',
+    title: 'Quem quer um\nSorriso mais Branco',
     icon: (
       <svg viewBox="0 0 52 52" style={{ width: '52px', height: '52px', stroke: 'var(--gold)', fill: 'none', strokeWidth: '1.2', strokeLinecap: 'round', strokeLinejoin: 'round' }}>
         <circle cx="26" cy="18" r="9" />
@@ -24,7 +24,7 @@ const cards: Card[] = [
     ),
   },
   {
-    title: 'Restauração de\nFunção Mastigatória',
+    title: 'Dentes com\nForma Irregular',
     icon: (
       <svg viewBox="0 0 52 52" style={{ width: '52px', height: '52px', stroke: 'var(--gold)', fill: 'none', strokeWidth: '1.2', strokeLinecap: 'round', strokeLinejoin: 'round' }}>
         <path d="M20 8c-4 0-8 3-8 8 0 6 4 10 6 16 1 3 2 6 4 8h8c2-2 3-5 4-8 2-6 6-10 6-16 0-5-4-8-8-8-2 0-4 1-6 3-2-2-4-3-6-3z" />
@@ -34,7 +34,7 @@ const cards: Card[] = [
     ),
   },
   {
-    title: 'Longevidade e\nDurabilidade',
+    title: 'Espaços entre\nos Dentes',
     icon: (
       <svg viewBox="0 0 52 52" style={{ width: '52px', height: '52px', stroke: 'var(--gold)', fill: 'none', strokeWidth: '1.2', strokeLinecap: 'round', strokeLinejoin: 'round' }}>
         <path d="M26 10C16 10 8 17 8 26c0 6 3 11 8 14l2 6h16l2-6c5-3 8-8 8-14 0-9-8-16-18-16z" />
@@ -45,7 +45,7 @@ const cards: Card[] = [
     ),
   },
   {
-    title: 'Preservação da\nEstruturaÓssea',
+    title: 'Quem busca\nHarmonia Facial',
     icon: (
       <svg viewBox="0 0 52 52" style={{ width: '52px', height: '52px', stroke: 'var(--gold)', fill: 'none', strokeWidth: '1.2', strokeLinecap: 'round', strokeLinejoin: 'round' }}>
         <circle cx="26" cy="20" r="11" />
@@ -88,7 +88,7 @@ export default function ParaQuem() {
             color: '#777',
             fontWeight: '300'
           }}>
-            Nossos serviços são ideais para:
+            As facetas de porcelana são ideais para quem:
           </p>
         </div>
 

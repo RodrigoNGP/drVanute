@@ -20,25 +20,25 @@ const testimonials: Testimonial[] = [
   {
     id: 1,
     name: 'Maria Silva',
-    location: 'São Paulo, SP',
+    location: 'Caruaru, PE',
     rating: 5,
-    text: 'Perdi dois dentes no acidente e achava que nunca mais teria um sorriso bonito. O implante foi a melhor decisão! O procedimento foi indolor e agora tenho os dentes como se fossem naturais. Recomendo para todos!',
+    text: 'Sempre tive vergonha de sorrir por causa do formato dos meus dentes. As facetas do Dr. Vanute mudaram tudo. O resultado ficou tão natural que as pessoas nem percebem que são facetas. Me sinto outra pessoa!',
     image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop'
   },
   {
     id: 2,
     name: 'Carlos Mendes',
-    location: 'Rio de Janeiro, RJ',
+    location: 'Caruaru, PE',
     rating: 5,
-    text: 'Sofria há anos com falta de um dente. O especialista foi muito atento aos detalhes e o resultado ficou perfeito. Agora mastico normalmente novamente e recuperei minha autoconfiança. Ótima profissional!',
+    text: 'Tinha dentes manchados que não clareavam com nenhum tratamento. As lentes de contato dental foram a solução perfeita. O planejamento foi feito com muito cuidado e o sorriso ficou exatamente como eu queria!',
     image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop'
   },
   {
     id: 3,
     name: 'Juliana Costa',
-    location: 'Belo Horizonte, MG',
+    location: 'Caruaru, PE',
     rating: 5,
-    text: 'Estava usando prótese e muito incomodada. O implante mudou minha vida completamente. Processo rápido, profissional atencioso e resultado excepcional. Finalmente posso sorrir sem insegurança!',
+    text: 'Fiz 8 facetas de porcelana e o resultado superou todas as minhas expectativas. O Dr. Vanute respeitou minha identidade e entregou um sorriso harmônico, branco e completamente natural. Indico de olhos fechados!',
     image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&h=100&fit=crop'
   }
 ];

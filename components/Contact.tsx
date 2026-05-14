@@ -87,7 +87,7 @@ export default function Contact() {
             color: 'var(--text-muted)',
             marginBottom: '24px'
           }}>
-            Deixe seus dados e agende sua consulta para avaliação de implante dentário. Nossa equipe entrará em contato para discutir as melhores opções para seu caso.
+            Deixe seus dados e agende sua consulta de avaliação para facetas de porcelana. Nossa equipe entrará em contato para discutir o design do sorriso ideal para você.
           </p>
 
           <p style={{
@@ -97,7 +97,7 @@ export default function Contact() {
             color: 'var(--text-muted)',
             marginBottom: '32px'
           }}>
-            Somos especialistas em restituir a função e estética da dentição com tecnologia moderna. Dentes de verdade, sorriso de verdade.
+            Somos especialistas em design do sorriso com facetas e lentes de contato dental. Resultado natural, harmonioso e personalizado para o seu rosto.
           </p>
 
           <div style={{
@@ -128,7 +128,7 @@ export default function Contact() {
                   Tecnologia de ponta
                 </p>
                 <p style={{ fontSize: '13px', color: 'var(--text-muted)' }}>
-                  Implantes e técnicas avançadas
+                  Porcelana de alta estética e lentes de contato dental
                 </p>
               </div>
             </div>
@@ -156,7 +156,7 @@ export default function Contact() {
                   Procedimento seguro
                 </p>
                 <p style={{ fontSize: '13px', color: 'var(--text-muted)' }}>
-                  Anestesia eficaz e acompanhamento pós-operatório
+                  Procedimento minimamente invasivo e confortável
                 </p>
               </div>
             </div>
@@ -184,7 +184,7 @@ export default function Contact() {
                   Resultados duradouros
                 </p>
                 <p style={{ fontSize: '13px', color: 'var(--text-muted)' }}>
-                  Implantes que duram 20+ anos
+                  Facetas de porcelana com 10 a 15 anos de durabilidade
                 </p>
               </div>
             </div>

@@ -69,7 +69,7 @@ export default function Navbar() {
           lineHeight: '1.3'
         }}>
           Dr. Vanute<br />
-          Implantodontia
+          Design do Sorriso
         </div>
       </a>
 

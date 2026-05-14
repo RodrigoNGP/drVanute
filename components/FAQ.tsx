@@ -11,28 +11,28 @@ interface FAQItem {
 const faqItems: FAQItem[] = [
   {
     id: 1,
-    question: 'Qual é o tempo de recuperação após o implante dentário?',
-    answer: 'O tempo de recuperação varia de 7 a 10 dias para a cicatrização inicial. A osseointegração completa (integração do implante ao osso) leva entre 3 a 6 meses, dependendo da qualidade óssea e tipo de implante.'
+    question: 'O que são facetas de porcelana?',
+    answer: 'Facetas de porcelana são lâminas ultrafinas de cerâmica coladas na superfície dos dentes para corrigir cor, forma, tamanho e alinhamento. São praticamente invisíveis e oferecem resultado extremamente natural e duradouro.'
   },
   {
     id: 2,
-    question: 'Quais são os cuidados pós-operatórios necessários?',
-    answer: 'Repouso no primeiro dia, compressas de gelo nas primeiras 48 horas, evitar alimentos quentes nos primeiros dias, não fumar, manter boa higiene oral e seguir as prescrições de medicamentos. Consultas de acompanhamento são essenciais.'
+    question: 'O procedimento é doloroso? Precisa desgastar o dente?',
+    answer: 'O procedimento é feito com anestesia local e é bastante confortável. No caso das lentes de contato dental (facetas ultra-finas), o desgaste é mínimo ou inexistente. Já as facetas convencionais exigem um pequeno desgaste do esmalte para melhor adaptação.'
   },
   {
     id: 3,
-    question: 'Com que frequência devo fazer acompanhamento após o implante?',
-    answer: 'Recomenda-se visitas de acompanhamento em 7 dias, 2 semanas, 1 mês, 3 meses e 6 meses após a cirurgia. Após isso, acompanhamento anual é recomendado para garantir a saúde do implante.'
+    question: 'Quanto tempo dura o tratamento com facetas?',
+    answer: 'O tratamento completo geralmente leva de 2 a 3 semanas, com duas consultas principais: planejamento e moldagem, e depois a instalação das facetas definitivas. O resultado é imediato e transformador.'
   },
   {
     id: 4,
-    question: 'Quanto tempo dura um implante dentário?',
-    answer: 'Com cuidados adequados e higiene oral rigorosa, implantes dentários podem durar mais de 20 anos. Alguns estudos mostram que implantes bem mantidos duram toda a vida do paciente.'
+    question: 'Quanto tempo duram as facetas de porcelana?',
+    answer: 'Com higiene adequada e consultas regulares de manutenção, as facetas de porcelana duram entre 10 a 15 anos ou mais. A porcelana é resistente a manchas e muito próxima do esmalte natural dos dentes.'
   },
   {
     id: 5,
-    question: 'Os implantes dentários são cobertos pelo seguro de saúde?',
-    answer: 'A cobertura varia conforme o plano de saúde. Muitos planos cobrem parcialmente ou exigem carência. Recomendamos consultar seu plano de saúde ou entrar em contato conosco para mais informações sobre opções de pagamento.'
+    question: 'Qualquer pessoa pode fazer facetas?',
+    answer: 'A maioria das pessoas é candidata às facetas. Durante a avaliação, o Dr. Vanute analisa a saúde gengival, o esmalte dos dentes e a mordida para indicar o tratamento mais adequado para cada caso.'
   }
 ];
 
@@ -177,7 +177,7 @@ export default function FAQ() {
             lineHeight: '1.8',
             marginBottom: '32px'
           }}>
-            Não se preocupe! Nos envie agora uma mensagem no WhatsApp. Iremos responder prontamente e tirar suas dúvidas sobre os procedimentos de implantodontia!
+            Não se preocupe! Nos envie agora uma mensagem no WhatsApp. Iremos responder prontamente e tirar suas dúvidas sobre facetas, lentes de contato dental e design do sorriso!
           </p>
 
           <a

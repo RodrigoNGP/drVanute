@@ -78,7 +78,7 @@ export default function Hero() {
               background: 'var(--gold)',
               borderRadius: '50%'
             }}></span>
-            Dr. Vanute - Especialista em Implantodontia
+            Dr. Vanute - Especialista em Facetas e Design do Sorriso
           </div>
 
           <h1 style={{
@@ -89,8 +89,8 @@ export default function Hero() {
             color: 'var(--text-light)',
             marginBottom: '20px'
           }}>
-            Recupere seu sorriso<br />
-            com <em style={{ fontStyle: 'italic', color: 'var(--gold)' }}>Implantes Dentários</em><br />
+            Transforme seu sorriso<br />
+            com <em style={{ fontStyle: 'italic', color: 'var(--gold)' }}>Facetas de Porcelana</em><br />
             de excelência
           </h1>
 
@@ -102,9 +102,9 @@ export default function Hero() {
             maxWidth: '440px',
             marginBottom: '36px'
           }}>
-            Implantes dentários modernos oferecem a solução mais segura e duradoura para
-            dentes perdidos. Recupere a confiança no seu sorriso, a qualidade de vida e
-            a capacidade de mastigar normalmente com nossa tecnologia de ponta.
+            As facetas de porcelana são a solução mais elegante e duradoura para quem quer
+            um sorriso harmônico, branco e natural. Design personalizado, resultado imediato
+            e uma transformação que vai além da estética — é autoconfiança de verdade.
           </p>
 
           <div style={{ display: 'flex', alignItems: 'center', gap: '24px', marginBottom: '48px' }}>
@@ -176,7 +176,7 @@ export default function Hero() {
             }}>
               <img
                 src="/dentista.png"
-                alt="Dr. Vanute - Especialista em Implantodontia"
+                alt="Dr. Vanute - Especialista em Facetas e Design do Sorriso"
                 style={{
                   width: '100%',
                   height: '100%',

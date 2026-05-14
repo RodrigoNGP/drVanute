@@ -61,7 +61,7 @@ export default function About() {
             color: 'var(--text-light)',
             marginBottom: '24px'
           }}>
-            Dr. Vanute Virgínio | Reabilitação Oral e Implantodontia em Caruaru
+            Dr. Vanute Virgínio | Facetas e Design do Sorriso em Caruaru
           </h2>
 
           <p style={{
@@ -71,7 +71,7 @@ export default function About() {
             color: 'var(--text-muted)',
             marginBottom: '24px'
           }}>
-            Especialista em transformar sorrisos e devolver a qualidade de vida através da Reabilitação Oral e Implantodontia avançada. Localizado no coração de Caruaru, o Dr. Vanute Virgínio combina anos de experiência com um olhar detalhista para casos complexos.
+            Especialista em transformar sorrisos com facetas de porcelana e lentes de contato dental. Localizado no coração de Caruaru, o Dr. Vanute Virgínio combina anos de experiência com um olhar artístico e detalhista para criar sorrisos naturais, harmônicos e duradouros.
           </p>
 
           <p style={{
@@ -81,7 +81,7 @@ export default function About() {
             color: 'var(--text-muted)',
             marginBottom: '24px'
           }}>
-            Nosso foco é oferecer um atendimento exclusivo, onde cada planejamento é realizado de forma individualizada, respeitando as proporções faciais e a identidade de cada paciente. Seja para implantes unitários ou reabilitações completas, aqui você encontra segurança, técnica de ponta e o acolhimento necessário para conquistar o sorriso que você merece.
+            Cada sorriso é único. Por isso, todo planejamento é individualizado, respeitando as proporções faciais, o tom de pele e a personalidade de cada paciente. Com técnica refinada e materiais de alta estética, as facetas do Dr. Vanute entregam mais do que beleza — entregam confiança e autoestima de verdade.
           </p>
 
           <a
