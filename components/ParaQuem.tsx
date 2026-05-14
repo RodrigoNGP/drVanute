@@ -61,9 +61,8 @@ const cards: Card[] = [
 
 export default function ParaQuem() {
   return (
-    <section id="para-quem" style={{
-      background: '#F5F3EF',
-      padding: '90px 60px'
+    <section id="para-quem" className="section-pad" style={{
+      background: '#F5F3EF'
     }}>
       <div style={{
         maxWidth: '1100px',
@@ -93,12 +92,7 @@ export default function ParaQuem() {
         </div>
 
         {/* Cards Grid */}
-        <div style={{
-          display: 'grid',
-          gridTemplateColumns: 'repeat(4, 1fr)',
-          gap: '20px',
-          marginBottom: '48px'
-        }}>
+        <div className="grid-4col">
           {cards.map((card, index) => (
             <div
               key={index}
@@ -178,22 +172,6 @@ export default function ParaQuem() {
         </div>
       </div>
 
-      <style jsx>{`
-        @media (max-width: 900px) {
-          section {
-            padding: 60px 24px;
-          }
-          div[style*="gridTemplateColumns"] {
-            grid-template-columns: repeat(2, 1fr) !important;
-          }
-        }
-
-        @media (max-width: 480px) {
-          div[style*="gridTemplateColumns"] {
-            grid-template-columns: 1fr 1fr !important;
-          }
-        }
-      `}</style>
     </section>
   );
 }

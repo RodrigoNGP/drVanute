@@ -53,17 +53,12 @@ export default function FAQ() {
   };
 
   return (
-    <section id="faq" style={{
-      background: '#FFFFFF',
-      padding: '90px 60px'
+    <section id="faq" className="section-pad" style={{
+      background: '#FFFFFF'
     }}>
-      <div style={{
+      <div className="grid-2col-start" style={{
         maxWidth: '1200px',
-        margin: '0 auto',
-        display: 'grid',
-        gridTemplateColumns: '1fr 1fr',
-        alignItems: 'flex-start',
-        gap: '80px'
+        margin: '0 auto'
       }}>
         {/* Left - FAQ List */}
         <div>
@@ -222,16 +217,6 @@ export default function FAQ() {
           to {
             opacity: 1;
             max-height: 500px;
-          }
-        }
-
-        @media (max-width: 900px) {
-          section {
-            padding: 60px 24px;
-          }
-          div[style*="gridTemplateColumns: 1fr 1fr"] {
-            grid-template-columns: 1fr !important;
-            gap: 40px !important;
           }
         }
       `}</style>

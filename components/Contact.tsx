@@ -56,17 +56,12 @@ export default function Contact() {
   };
 
   return (
-    <section id="agendar" style={{
-      background: '#172333',
-      padding: '80px 60px'
+    <section id="agendar" className="section-pad" style={{
+      background: '#172333'
     }}>
-      <div style={{
+      <div className="grid-2col" style={{
         maxWidth: '1200px',
-        margin: '0 auto',
-        display: 'grid',
-        gridTemplateColumns: '1fr 1fr',
-        alignItems: 'center',
-        gap: '80px'
+        margin: '0 auto'
       }}>
         {/* Left Content */}
         <div>
@@ -372,20 +367,6 @@ export default function Contact() {
         </div>
       </div>
 
-      <style jsx>{`
-        @media (max-width: 900px) {
-          section {
-            padding: 60px 24px;
-          }
-          div[style*="gridTemplateColumns: 1fr 1fr"] {
-            grid-template-columns: 1fr !important;
-            gap: 40px !important;
-          }
-          form {
-            padding: 30px !important;
-          }
-        }
-      `}</style>
     </section>
   );
 }

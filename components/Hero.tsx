@@ -44,17 +44,9 @@ export default function Hero() {
         pointerEvents: 'none'
       }}></div>
 
-      <div style={{
+      <div className="hero-container" style={{
         maxWidth: '1200px',
-        margin: '0 auto',
-        padding: '0 60px',
-        display: 'grid',
-        gridTemplateColumns: '1fr 1fr',
-        alignItems: 'center',
-        gap: '60px',
-        width: '100%',
-        position: 'relative',
-        zIndex: 10
+        margin: '0 auto'
       }}>
         {/* Left Content */}
         <div>
@@ -154,7 +146,7 @@ export default function Hero() {
         </div>
 
         {/* Right Visual */}
-        <div style={{
+        <div className="hero-visual" style={{
           position: 'relative',
           display: 'flex',
           justifyContent: 'center',
@@ -210,7 +202,7 @@ export default function Hero() {
                 color: 'var(--text-muted)',
                 letterSpacing: '0.05em',
                 marginTop: '4px'
-              }}>Anos de<br />Experiência</div>
+              }}>Anos de<br />Formação</div>
             </div>
 
             {/* Patients Badge */}
@@ -280,11 +272,8 @@ export default function Hero() {
       </div>
 
       <style jsx>{`
-        @media (max-width: 900px) {
-          div[style*="gridTemplateColumns"] {
-            grid-template-columns: 1fr;
-            padding: 0 24px !important;
-          }
+        @media (max-width: 768px) {
+          section { padding-top: 70px !important; }
         }
       `}</style>
     </section>

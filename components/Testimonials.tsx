@@ -19,23 +19,23 @@ interface Testimonial {
 const testimonials: Testimonial[] = [
   {
     id: 1,
-    name: 'Maria Silva',
+    name: 'Fernanda Limeira',
     location: 'Caruaru, PE',
     rating: 5,
-    text: 'Sempre tive vergonha de sorrir por causa do formato dos meus dentes. As facetas do Dr. Vanute mudaram tudo. O resultado ficou tão natural que as pessoas nem percebem que são facetas. Me sinto outra pessoa!',
-    image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop'
+    text: '👏👏👏👏 Excelente profissional, amo o seu trabalho ❤️',
+    image: '/maria.png'
   },
   {
     id: 2,
-    name: 'Carlos Mendes',
+    name: 'Geovane',
     location: 'Caruaru, PE',
     rating: 5,
-    text: 'Tinha dentes manchados que não clareavam com nenhum tratamento. As lentes de contato dental foram a solução perfeita. O planejamento foi feito com muito cuidado e o sorriso ficou exatamente como eu queria!',
-    image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop'
+    text: 'Sem palavras para descrever o profissionalismo e todo atendimento da equipe 👏👏👏👏',
+    image: '/carlos.png'
   },
   {
     id: 3,
-    name: 'Juliana Costa',
+    name: 'Julio Costa',
     location: 'Caruaru, PE',
     rating: 5,
     text: 'Fiz 8 facetas de porcelana e o resultado superou todas as minhas expectativas. O Dr. Vanute respeitou minha identidade e entregou um sorriso harmônico, branco e completamente natural. Indico de olhos fechados!',
@@ -63,9 +63,8 @@ const StarRating = ({ rating }: { rating: number }) => {
 
 export default function Testimonials() {
   return (
-    <section id="depoimentos" style={{
-      background: '#172333',
-      padding: '80px 60px'
+    <section id="depoimentos" className="section-pad" style={{
+      background: '#172333'
     }}>
       <div style={{
         maxWidth: '1200px',
@@ -88,12 +87,7 @@ export default function Testimonials() {
         </div>
 
         {/* Testimonials Grid */}
-        <div style={{
-          display: 'grid',
-          gridTemplateColumns: 'repeat(3, 1fr)',
-          gap: '30px',
-          marginBottom: '50px'
-        }}>
+        <div className="grid-3col">
           {testimonials.map((testimonial) => (
             <div
               key={testimonial.id}
@@ -197,16 +191,6 @@ export default function Testimonials() {
         </div>
       </div>
 
-      <style jsx>{`
-        @media (max-width: 900px) {
-          section {
-            padding: 60px 24px;
-          }
-          div[style*="gridTemplateColumns: repeat(3"] {
-            grid-template-columns: 1fr;
-          }
-        }
-      `}</style>
     </section>
   );
 }

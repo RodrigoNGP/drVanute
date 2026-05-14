@@ -9,19 +9,14 @@ const pushEvent = (data: Record<string, string>) => {
 
 export default function About() {
   return (
-    <section id="sobre" style={{
+    <section id="sobre" className="section-pad" style={{
       background: '#172333',
-      padding: '80px 60px',
       position: 'relative',
       overflow: 'hidden'
     }}>
-      <div style={{
+      <div className="grid-2col" style={{
         maxWidth: '1200px',
-        margin: '0 auto',
-        display: 'grid',
-        gridTemplateColumns: '1fr 1fr',
-        alignItems: 'center',
-        gap: '80px'
+        margin: '0 auto'
       }}>
         {/* Left - Image */}
         <div style={{
@@ -115,17 +110,6 @@ export default function About() {
         </div>
       </div>
 
-      <style jsx>{`
-        @media (max-width: 900px) {
-          section {
-            padding: 60px 24px;
-          }
-          div[style*="gridTemplateColumns"] {
-            grid-template-columns: 1fr;
-            gap: 40px;
-          }
-        }
-      `}</style>
     </section>
   );
 }
