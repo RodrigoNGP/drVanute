@@ -70,7 +70,7 @@ export default function Hero() {
               background: 'var(--gold)',
               borderRadius: '50%'
             }}></span>
-            Dr. Vanute - Especialista em Facetas e Design do Sorriso
+            Dr. Vanute - Especialista em Facetas
           </div>
 
           <h1 style={{
@@ -168,7 +168,7 @@ export default function Hero() {
             }}>
               <img
                 src="/dentista.png"
-                alt="Dr. Vanute - Especialista em Facetas e Design do Sorriso"
+                alt="Dr. Vanute - Especialista em Facetas"
                 style={{
                   width: '100%',
                   height: '100%',
@@ -176,33 +176,6 @@ export default function Hero() {
                   borderRadius: '8px'
                 }}
               />
-            </div>
-
-            {/* Years Badge */}
-            <div style={{
-              position: 'absolute',
-              top: '30px',
-              left: '-20px',
-              background: 'rgba(13,17,23,0.9)',
-              border: '1px solid rgba(201,169,110,0.4)',
-              padding: '16px 20px',
-              textAlign: 'center',
-              backdropFilter: 'blur(8px)',
-              borderRadius: '8px'
-            }}>
-              <div style={{
-                fontFamily: "'Playfair Display', serif",
-                fontSize: '28px',
-                fontWeight: '700',
-                color: 'var(--gold)',
-                lineHeight: '1'
-              }}>+10</div>
-              <div style={{
-                fontSize: '11px',
-                color: 'var(--text-muted)',
-                letterSpacing: '0.05em',
-                marginTop: '4px'
-              }}>Anos de<br />Formação</div>
             </div>
 
             {/* Patients Badge */}

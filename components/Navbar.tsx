@@ -43,7 +43,7 @@ export default function Navbar() {
             <span style={{ display: 'block', width: '16px', height: '16px', background: 'var(--gold)', borderRadius: '2px' }}></span>
           </div>
           <div style={{ fontFamily: "'Inter', sans-serif", fontSize: '11px', fontWeight: '600', letterSpacing: '0.15em', textTransform: 'uppercase', color: 'var(--text-light)', lineHeight: '1.3' }}>
-            Dr. Vanute<br />Design do Sorriso
+            Dr. Vanute<br />Facetas
           </div>
         </a>
 

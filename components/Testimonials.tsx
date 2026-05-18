@@ -35,11 +35,11 @@ const testimonials: Testimonial[] = [
   },
   {
     id: 3,
-    name: 'Julio Costa',
+    name: 'Shirley Krystiane',
     location: 'Caruaru, PE',
     rating: 5,
-    text: 'Fiz 8 facetas de porcelana e o resultado superou todas as minhas expectativas. O Dr. Vanute respeitou minha identidade e entregou um sorriso harmônico, branco e completamente natural. Indico de olhos fechados!',
-    image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&h=100&fit=crop'
+    text: 'Dr. Vanute é perfeccionista e comprometido com o que faz... o que faz dele referência em implantes e facetas',
+    image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop'
   }
 ];
 

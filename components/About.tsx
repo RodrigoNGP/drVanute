@@ -56,7 +56,7 @@ export default function About() {
             color: 'var(--text-light)',
             marginBottom: '24px'
           }}>
-            Dr. Vanute Virgínio | Facetas e Design do Sorriso em Caruaru
+            Dr. Vanute Virgínio | Especialista em Facetas em Caruaru
           </h2>
 
           <p style={{
